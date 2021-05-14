@@ -13,7 +13,7 @@ public class DetalhesDoTopicoDTO {
 	private String titulo;
 	private String mensagem;
 	private LocalDateTime dataCriacao;
-	private String nomeAutor;
+	private String nomeAutor = "Autor";
 	private StatusTopico status;
 	private List<RespostasDTO> respostas;
 	
